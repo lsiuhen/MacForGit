@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.9"
+        android:background="@drawable/transmission_top_bg">
+
+        <RelativeLayout
+            android:id="@+id/nav_ll"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/activity_bar_back">
+
+           <RelativeLayout
+               android:id="@+id/transfer_gohome_rl"
+               android:layout_width="70dp"
+               android:layout_height="70dp"
+               android:layout_alignParentLeft="true"
+               android:layout_centerVertical="true"
+               >
+               <ImageView
+                   android:id="@+id/left_img"
+                   android:layout_width="25dp"
+                   android:layout_height="25dp"
+                  android:layout_centerInParent="true"
+                   android:background="@drawable/go_home_selector" />
+
+           </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxWidth="220.0dip"
+                android:singleLine="true"
+                android:text="传输中心"
+                android:textColor="#f7f7f7"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:id="@+id/transfer_help_rl"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                >
+                <ImageView
+                    android:id="@+id/right_menu"
+                    android:layout_width="25dip"
+                    android:layout_height="25dip"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/help_selector"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/transfer_notransfer_rl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/nav_ll"
+            android:layout_centerInParent="true"
+            android:visibility="visible"
+            >
+
+            <ImageButton
+                android:id="@+id/transfer_notransfer_ibtn"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="@drawable/transfer_btn_selector"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/transfer_notransfer_ibtn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:text="点击按钮，一键传输"
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/transfer_transfeing_rl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/nav_ll"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            >
+
+            <ImageButton
+                android:id="@+id/transfer_transfeing_ibtn"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/trans_transfeing_nor"
+                />
+
+            <RelativeLayout
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_centerHorizontal="true"
+                >
+                <TextView
+                    android:id="@+id/transfer_transfeing_curr_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="36"
+                    android:textColor="@color/blue"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:gravity="bottom"
+                    android:textSize="68sp"
+                    />
+                <TextView
+                    android:id="@+id/transfer_transfeing_total_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="/120"
+                    android:textColor="@color/blue"
+                    android:layout_below="@id/transfer_transfeing_curr_tv"
+                    android:layout_centerHorizontal="true"
+                    />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/transfer_transfeing_ibtn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:text="正在传输..."
+                />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        >
+
+        <com.nepo.nepotransfered.view.dragview.DragGridView
+            android:id="@+id/transfer_gridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="2"
+            android:verticalSpacing="3dp"
+            android:horizontalSpacing="3dp"
+            android:scrollbars="vertical"
+            android:layout_margin="3dp"
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

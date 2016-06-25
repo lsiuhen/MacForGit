@@ -1,0 +1,791 @@
+package com.nepo.nepotransfered;
+
+import android.annotation.TargetApi;
+import android.content.Intent;
+import android.graphics.drawable.Drawable;
+import android.os.Build;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.lidroid.xutils.HttpUtils;
+import com.lidroid.xutils.exception.DbException;
+import com.lidroid.xutils.exception.HttpException;
+import com.lidroid.xutils.http.RequestParams;
+import com.lidroid.xutils.http.ResponseInfo;
+import com.lidroid.xutils.http.callback.RequestCallBack;
+import com.lidroid.xutils.http.client.HttpRequest;
+import com.nepo.nepotransfered.app.Constant;
+import com.nepo.nepotransfered.app.Global;
+import com.nepo.nepotransfered.db.DownloadDB;
+import com.nepo.nepotransfered.model.AppDownInfoModel;
+import com.nepo.nepotransfered.model.AppInfosModel;
+import com.nepo.nepotransfered.net.AsyncImageLoader;
+import com.nepo.nepotransfered.net.download.DownObserverMsg;
+import com.nepo.nepotransfered.net.download.DownloadManager;
+import com.nepo.nepotransfered.net.download.DownloadRequestCallBack;
+import com.nepo.nepotransfered.net.download.DownloadService;
+import com.nepo.nepotransfered.net.download.ObserverManage;
+import com.nepo.nepotransfered.utils.SPUtils;
+import com.nepo.nepotransfered.utils.Utils;
+import com.nepo.nepotransfered.view.loadview.GearLoadingRenderer;
+import com.nepo.nepotransfered.view.loadview.LoadingDrawable;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Observable;
+import java.util.Observer;
+
+/**
+ * Created by lsiuhen on 2016/5/27.
+ */
+public class MyAppActivity extends BaseActivity implements Observer {
+
+    /**
+     * 视图
+     * @param savedInstanceState
+     */
+    private RelativeLayout nav_ll;
+    private RelativeLayout appmap_nav_rl;
+    private RelativeLayout appmap_vehicle_rl;
+    private RelativeLayout appmap_off_rl;
+    private RelativeLayout appmap_loca_item_rl;
+
+    private ImageView left_img;
+    private RelativeLayout right_menu_rl;
+
+    private LinearLayout myapp_item1;
+    private LinearLayout myapp_item2;
+    private LinearLayout myapp_item3;
+    private LinearLayout myapp_item4;
+    private LinearLayout myapp_vehicle_item1;
+    private LinearLayout myapp_vehicle_item2;
+    private LinearLayout myapp_vehicle_item3;
+    private LinearLayout myapp_vehicle_item4;
+
+
+    /**
+     * app item1
+     **/
+    private ImageView myapp_item_img;
+    private TextView myapp_item_txt;
+    private TextView myapp_down_tv;
+    // 下载完成
+    private RelativeLayout myapp_down_complate_rl;
+    // 下载进度条
+    private RelativeLayout myapp_down_loading_rl;
+    private ProgressBar myapp_down_progressb;
+    /**app End**/
+    /**
+     * app item2
+     **/
+    private ImageView myapp_item_img2;
+    private TextView myapp_item_txt2;
+    private TextView myapp_down_tv2;
+    // 下载完成
+    private RelativeLayout myapp_down_complate_rl2;
+    // 下载进度条
+    private RelativeLayout myapp_down_loading_rl2;
+    private ProgressBar myapp_down_progressb2;
+    /**app End**/
+    /**
+     * app item3
+     **/
+    private ImageView myapp_item_img3;
+    private TextView myapp_item_txt3;
+    private TextView myapp_down_tv3;
+    // 下载完成
+    private RelativeLayout myapp_down_complate_rl3;
+    // 下载进度条
+    private RelativeLayout myapp_down_loading_rl3;
+    private ProgressBar myapp_down_progressb3;
+    /**app End**/
+    /**
+     * app item4
+     **/
+    private ImageView myapp_item_img4;
+    private TextView myapp_item_txt4;
+    private TextView myapp_down_tv4;
+    // 下载完成
+    private RelativeLayout myapp_down_complate_rl4;
+    // 下载进度条
+    private RelativeLayout myapp_down_loading_rl4;
+    private ProgressBar myapp_down_progressb4;
+    /**app End**/
+
+    /**
+     * app item5
+     **/
+    private ImageView myapp_item_img5;
+    private TextView myapp_item_txt5;
+    private TextView myapp_down_tv5;
+    // 下载完成
+    private RelativeLayout myapp_down_complate_rl5;
+    // 下载进度条
+    private RelativeLayout myapp_down_loading_rl5;
+    private ProgressBar myapp_down_progressb5;
+    /**app End**/
+    /**
+     * app item6
+     **/
+    private ImageView myapp_item_img6;
+    private TextView myapp_item_txt6;
+    private TextView myapp_down_tv6;
+    // 下载完成
+    private RelativeLayout myapp_down_complate_rl6;
+    // 下载进度条
+    private RelativeLayout myapp_down_loading_rl6;
+    private ProgressBar myapp_down_progressb6;
+    /**app End**/
+    /**
+     * app item7
+     **/
+    private ImageView myapp_item_img7;
+    private TextView myapp_item_txt7;
+    private TextView myapp_down_tv7;
+    // 下载完成
+    private RelativeLayout myapp_down_complate_rl7;
+    // 下载进度条
+    private RelativeLayout myapp_down_loading_rl7;
+    private ProgressBar myapp_down_progressb7;
+    /**app End**/
+    /**
+     * app item8
+     **/
+    private ImageView myapp_item_img8;
+    private TextView myapp_item_txt8;
+    private TextView myapp_down_tv8;
+    // 下载完成
+    private RelativeLayout myapp_down_complate_rl8;
+    // 下载进度条
+    private RelativeLayout myapp_down_loading_rl8;
+    private ProgressBar myapp_down_progressb8;
+    /**app End**/
+
+    /**
+     * 基本资源包
+     **/
+    private RelativeLayout appmap_off_item_down_loading_rl;
+    private RelativeLayout appmap_off_item_down_complate_rl;
+    private ProgressBar appmap_off_item_down_progressb;
+
+    /**
+     * 定位资源包
+     **/
+    private RelativeLayout appmap_off_item_location_down_loading_rl;
+    private RelativeLayout appmap_off_item_location_down_complate_rl;
+    private ProgressBar appmap_off_item_location_down_progressb;
+
+    private RelativeLayout myapp_content_loading_rl;
+    private ImageView myapp_content_loading_iv;
+    private LinearLayout myapp_content_ll;
+
+    private List<ProgressBar> listProgress;
+    private List<RelativeLayout> listComplete;
+    private List<RelativeLayout> listLoading;
+    private LoadingDrawable mGearDrawable;
+
+
+    /**
+     * 数据
+     * @param savedInstanceState
+     */
+    private List<AppInfosModel> appInfosList= new ArrayList<>();
+    public AsyncImageLoader asyncImageLoaders;
+    private DownloadManager downloadManager;
+
+
+    Handler mHandler=new Handler(){
+        @Override
+        public void handleMessage(Message msg) {
+            super.handleMessage(msg);
+            if(msg.what==0){
+                DownObserverMsg downObserverMsg= (DownObserverMsg) msg.obj;
+                if(downObserverMsg.downId!=null){
+                    for (int i = 0; i < listProgress.size(); i++) {
+                        if(listProgress.get(i).getTag().toString().equals(downObserverMsg.downId)){
+                            if(downObserverMsg.progress>=100){
+                                AppDownInfoModel model=new AppDownInfoModel();
+                                model.setId(downObserverMsg.downId);
+                                model.setFileDownStatus(Constant.STATE_DOWNLOADED);
+                                DownloadDB.getDownInfoDB(MyAppActivity.this).updateIsDowned(model);
+                                listComplete.get(i).setVisibility(View.VISIBLE);
+                                listLoading.get(i).setVisibility(View.GONE);
+                            }else{
+                                listProgress.get(i).setProgress(downObserverMsg.progress);
+                            }
+                        }
+                    }
+                }
+
+            }
+
+        }
+    };
+
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_myapp);
+        initView();
+        initData();
+        initLisenter();
+
+    }
+
+    @Override
+    public void initView() {
+        isImmersion(true);
+        mGearDrawable = new LoadingDrawable(new GearLoadingRenderer(this));
+        listProgress=new ArrayList<>();
+        listComplete=new ArrayList<>();
+        listLoading=new ArrayList<>();
+        nav_ll = (RelativeLayout) findViewById(R.id.nav_ll);
+        appmap_nav_rl = (RelativeLayout) findViewById(R.id.appmap_nav_rl);
+        appmap_vehicle_rl = (RelativeLayout) findViewById(R.id.appmap_vehicle_rl);
+        appmap_off_rl = (RelativeLayout) findViewById(R.id.appmap_off_rl);
+        appmap_loca_item_rl = (RelativeLayout) findViewById(R.id.appmap_loca_item_rl);
+        right_menu_rl = (RelativeLayout) findViewById(R.id.right_menu_rl);
+        left_img = (ImageView) findViewById(R.id.left_img);
+
+        myapp_item1 = (LinearLayout) findViewById(R.id.myapp_item1);
+        myapp_item2 = (LinearLayout) findViewById(R.id.myapp_item2);
+        myapp_item3 = (LinearLayout) findViewById(R.id.myapp_item3);
+        myapp_item4 = (LinearLayout) findViewById(R.id.myapp_item4);
+        myapp_vehicle_item1 = (LinearLayout) findViewById(R.id.myapp_vehicle_item1);
+        myapp_vehicle_item2 = (LinearLayout) findViewById(R.id.myapp_vehicle_item2);
+        myapp_vehicle_item3 = (LinearLayout) findViewById(R.id.myapp_vehicle_item3);
+        myapp_vehicle_item4 = (LinearLayout) findViewById(R.id.myapp_vehicle_item4);
+
+        /**item 1**/
+        myapp_item_img = (ImageView) myapp_item1.findViewById(R.id.myapp_item_img);
+        myapp_item_txt = (TextView) myapp_item1.findViewById(R.id.myapp_item_txt);
+        myapp_down_tv = (TextView) myapp_item1.findViewById(R.id.myapp_down_tv);
+        myapp_down_complate_rl = (RelativeLayout) myapp_item1.findViewById(R.id.myapp_down_complate_rl);
+        myapp_down_loading_rl = (RelativeLayout) myapp_item1.findViewById(R.id.myapp_down_loading_rl);
+        myapp_down_progressb = (ProgressBar) myapp_item1.findViewById(R.id.myapp_down_progressb);
+        /**End**/
+        /**item 2**/
+        myapp_item_img2 = (ImageView) myapp_item2.findViewById(R.id.myapp_item_img);
+        myapp_item_txt2 = (TextView) myapp_item2.findViewById(R.id.myapp_item_txt);
+        myapp_down_tv2 = (TextView) myapp_item2.findViewById(R.id.myapp_down_tv);
+        myapp_down_complate_rl2 = (RelativeLayout) myapp_item2.findViewById(R.id.myapp_down_complate_rl);
+        myapp_down_loading_rl2 = (RelativeLayout) myapp_item2.findViewById(R.id.myapp_down_loading_rl);
+        myapp_down_progressb2 = (ProgressBar) myapp_item2.findViewById(R.id.myapp_down_progressb);
+        /**End**/
+        /**item 3**/
+        myapp_item_img3 = (ImageView) myapp_item3.findViewById(R.id.myapp_item_img);
+        myapp_item_txt3 = (TextView) myapp_item3.findViewById(R.id.myapp_item_txt);
+        myapp_down_tv3 = (TextView) myapp_item3.findViewById(R.id.myapp_down_tv);
+        myapp_down_complate_rl3 = (RelativeLayout) myapp_item3.findViewById(R.id.myapp_down_complate_rl);
+        myapp_down_loading_rl3 = (RelativeLayout) myapp_item3.findViewById(R.id.myapp_down_loading_rl);
+        myapp_down_progressb3 = (ProgressBar) myapp_item3.findViewById(R.id.myapp_down_progressb);
+        /**End**/
+        /**item 4**/
+        myapp_item_img4 = (ImageView) myapp_item4.findViewById(R.id.myapp_item_img);
+        myapp_item_txt4 = (TextView) myapp_item4.findViewById(R.id.myapp_item_txt);
+        myapp_down_tv4 = (TextView) myapp_item4.findViewById(R.id.myapp_down_tv);
+        myapp_down_complate_rl4 = (RelativeLayout) myapp_item4.findViewById(R.id.myapp_down_complate_rl);
+        myapp_down_loading_rl4 = (RelativeLayout) myapp_item4.findViewById(R.id.myapp_down_loading_rl);
+        myapp_down_progressb4 = (ProgressBar) myapp_item4.findViewById(R.id.myapp_down_progressb);
+        /**End**/
+
+
+        /**item 5**/
+        myapp_item_img5 = (ImageView) myapp_vehicle_item1.findViewById(R.id.myapp_item_img);
+        myapp_item_txt5 = (TextView) myapp_vehicle_item1.findViewById(R.id.myapp_item_txt);
+        myapp_down_tv5 = (TextView) myapp_vehicle_item1.findViewById(R.id.myapp_down_tv);
+        myapp_down_complate_rl5 = (RelativeLayout) myapp_vehicle_item1.findViewById(R.id.myapp_down_complate_rl);
+        myapp_down_loading_rl5 = (RelativeLayout) myapp_vehicle_item1.findViewById(R.id.myapp_down_loading_rl);
+        myapp_down_progressb5 = (ProgressBar) myapp_vehicle_item1.findViewById(R.id.myapp_down_progressb);
+        /**End**/
+        /**item 6**/
+        myapp_item_img6 = (ImageView) myapp_vehicle_item2.findViewById(R.id.myapp_item_img);
+        myapp_item_txt6 = (TextView) myapp_vehicle_item2.findViewById(R.id.myapp_item_txt);
+        myapp_down_tv6 = (TextView) myapp_vehicle_item2.findViewById(R.id.myapp_down_tv);
+        myapp_down_complate_rl6 = (RelativeLayout) myapp_vehicle_item2.findViewById(R.id.myapp_down_complate_rl);
+        myapp_down_loading_rl6 = (RelativeLayout) myapp_vehicle_item2.findViewById(R.id.myapp_down_loading_rl);
+        myapp_down_progressb6 = (ProgressBar) myapp_vehicle_item2.findViewById(R.id.myapp_down_progressb);
+        /**End**/
+        /**item 7**/
+        myapp_item_img7 = (ImageView) myapp_vehicle_item3.findViewById(R.id.myapp_item_img);
+        myapp_item_txt7 = (TextView) myapp_vehicle_item3.findViewById(R.id.myapp_item_txt);
+        myapp_down_tv7 = (TextView) myapp_vehicle_item3.findViewById(R.id.myapp_down_tv);
+        myapp_down_complate_rl7 = (RelativeLayout) myapp_vehicle_item3.findViewById(R.id.myapp_down_complate_rl);
+        myapp_down_loading_rl7 = (RelativeLayout) myapp_vehicle_item3.findViewById(R.id.myapp_down_loading_rl);
+        myapp_down_progressb7 = (ProgressBar) myapp_vehicle_item3.findViewById(R.id.myapp_down_progressb);
+        /**End**/
+        /**item 8**/
+        myapp_item_img8 = (ImageView) myapp_vehicle_item4.findViewById(R.id.myapp_item_img);
+        myapp_item_txt8 = (TextView) myapp_vehicle_item4.findViewById(R.id.myapp_item_txt);
+        myapp_down_tv8 = (TextView) myapp_vehicle_item4.findViewById(R.id.myapp_down_tv);
+        myapp_down_complate_rl8 = (RelativeLayout) myapp_vehicle_item4.findViewById(R.id.myapp_down_complate_rl);
+        myapp_down_loading_rl8 = (RelativeLayout) myapp_vehicle_item4.findViewById(R.id.myapp_down_loading_rl);
+        myapp_down_progressb8 = (ProgressBar) myapp_vehicle_item4.findViewById(R.id.myapp_down_progressb);
+        /**End**/
+        /**基本资源包**/
+        appmap_off_item_down_loading_rl = (RelativeLayout) findViewById(R.id.appmap_off_item_down_loading_rl);
+        appmap_off_item_down_complate_rl = (RelativeLayout) findViewById(R.id.appmap_off_item_down_complate_rl);
+        appmap_off_item_down_progressb = (ProgressBar) findViewById(R.id.appmap_off_item_down_progressb);
+        /**定位资源包**/
+        appmap_off_item_location_down_loading_rl = (RelativeLayout) findViewById(R.id.appmap_loca_item_down_loading_rl);
+        appmap_off_item_location_down_complate_rl = (RelativeLayout) findViewById(R.id.appmap_loca_item_down_complate_rl);
+        appmap_off_item_location_down_progressb = (ProgressBar) findViewById(R.id.appmap_loca_item_down_progressb);
+
+        myapp_content_loading_rl= (RelativeLayout) findViewById(R.id.myapp_content_loading_rl);
+        myapp_content_loading_iv= (ImageView) findViewById(R.id.myapp_content_loading_iv);
+        myapp_content_ll= (LinearLayout) findViewById(R.id.myapp_content_ll);
+        myapp_content_loading_iv.setImageDrawable(mGearDrawable);
+
+        listProgress.add(myapp_down_progressb);
+        listProgress.add(myapp_down_progressb2);
+        listProgress.add(myapp_down_progressb3);
+        listProgress.add(myapp_down_progressb4);
+        listProgress.add(myapp_down_progressb5);
+        listProgress.add(myapp_down_progressb6);
+        listProgress.add(myapp_down_progressb7);
+        listProgress.add(myapp_down_progressb8);
+
+        listComplete.add(myapp_down_complate_rl);
+        listComplete.add(myapp_down_complate_rl2);
+        listComplete.add(myapp_down_complate_rl3);
+        listComplete.add(myapp_down_complate_rl4);
+        listComplete.add(myapp_down_complate_rl5);
+        listComplete.add(myapp_down_complate_rl6);
+        listComplete.add(myapp_down_complate_rl7);
+        listComplete.add(myapp_down_complate_rl8);
+
+        listLoading.add(myapp_down_loading_rl);
+        listLoading.add(myapp_down_loading_rl2);
+        listLoading.add(myapp_down_loading_rl3);
+        listLoading.add(myapp_down_loading_rl4);
+        listLoading.add(myapp_down_loading_rl5);
+        listLoading.add(myapp_down_loading_rl6);
+        listLoading.add(myapp_down_loading_rl7);
+        listLoading.add(myapp_down_loading_rl8);
+
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        mGearDrawable.start();
+    }
+
+    @Override
+    public void initData() {
+        ObserverManage.getObserver().addObserver(this);
+        downloadManager = DownloadService.getDownloadManager(getApplicationContext());
+        asyncImageLoaders = new AsyncImageLoader();
+        String appjson = SPUtils.get(MyAppActivity.this, "appjson", "0").toString();
+        if(!appjson.equals("0")){
+            mGearDrawable.stop();
+            myapp_content_loading_rl.setVisibility(View.GONE);
+            myapp_content_ll.setVisibility(View.VISIBLE);
+            parseJsonToModel(appjson);
+        }
+        RequestParams params = new RequestParams();
+//        params.setSslSocketFactory(...); // 设置ssl
+        params.addQueryStringParameter("sn", "0070010010000001");
+        params.addQueryStringParameter("pkg", "yunbo");
+        params.addQueryStringParameter("imei", "202000182873763762");
+        params.addQueryStringParameter("appVersion", "1.1");
+        params.addQueryStringParameter("terVersion", "G1.12");
+        params.addQueryStringParameter("sysVersion", "Android5.1");
+        params.addHeader("Content-Type", "application/octet-stream");
+
+        HttpUtils httpUtils=new HttpUtils();
+        httpUtils.send(HttpRequest.HttpMethod.GET, Constant.GETAPPLISTURL, params, new RequestCallBack<Object>() {
+            @Override
+            public void onSuccess(ResponseInfo<Object> responseInfo) {
+                Utils.Sout("res",responseInfo.result);
+                mGearDrawable.stop();
+                myapp_content_loading_rl.setVisibility(View.GONE);
+                myapp_content_ll.setVisibility(View.VISIBLE);
+                if(responseInfo.statusCode==200){
+                    try {
+                        String appjson = SPUtils.get(MyAppActivity.this, "appjson", "0").toString();
+                        if(appjson.equals("0")){
+                            parseJsonToModel(responseInfo.result.toString());
+                        }
+                        SPUtils.put(MyAppActivity.this,"appjson",responseInfo.result.toString());
+
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+
+            }
+
+            @Override
+            public void onFailure(HttpException error, String msg) {
+                mGearDrawable.stop();
+                myapp_content_loading_rl.setVisibility(View.GONE);
+                myapp_content_ll.setVisibility(View.VISIBLE);
+                Utils.Sout("res",error.getMessage()+","+msg);
+                Toast.makeText(MyAppActivity.this, error.getMessage(), Toast.LENGTH_LONG).show();
+            }
+        });
+
+
+
+
+    }
+
+
+    private void parseJsonToModel(String jsonStr){
+        try{
+            JSONObject jsonObject = new JSONObject(jsonStr);
+            JSONArray jsonArray = jsonObject.getJSONArray("appInfos");
+            for (int i = 0, len = jsonArray.length(); i < len; i++) {
+                JSONObject object = jsonArray.getJSONObject(i);
+                AppInfosModel appInfos = new AppInfosModel();
+                if (object.has("id")) {
+                    appInfos.setId(object.getString("id"));
+                }
+                if (object.has("appName")) {
+                    appInfos.setAppName(object.getString("appName"));
+                }
+                if (object.has("appUrl")) {
+                    appInfos.setAppUrl(object.getString("appUrl"));
+                    appInfos.setDownId(Utils.subStr(appInfos.getAppUrl()));
+                    appInfos.setDownStatus(Constant.STATE_NONE);
+                }
+                if (object.has("appIconUrl")) {
+                    appInfos.setAppIconUrl(object.getString("appIconUrl"));
+                }
+                if (object.has("appVersion")) {
+                    appInfos.setAppVersion(object.getString("appVersion"));
+                }
+                if (object.has("appPkg")) {
+                    appInfos.setAppPkg(object.getString("appPkg"));
+                }
+                if (object.has("appFileSize")) {
+                    appInfos.setAppFileSize(object.getString("appFileSize"));
+                }
+                if (object.has("appExtUrl")) {
+                    appInfos.setAppExtUrl(object.getString("appExtUrl"));
+                }
+                if (object.has("appType")) {
+                    appInfos.setAppType(object.getString("appType"));
+                }
+
+                appInfosList.add(appInfos);
+            }
+
+            fillToView();
+
+
+        }catch (Exception ex){
+            ex.printStackTrace();
+        }
+    }
+
+
+
+
+    /**
+     * 填充数据到视图
+     */
+    private void fillToView(){
+        if(appInfosList!=null){
+            List<AppDownInfoModel> downFileInfoList = DownloadDB.getDownInfoDB(this).queryAll();
+            List<AppInfosModel> appInfoses = Utils.shiftData(appInfosList, downFileInfoList);
+
+            if(appInfoses.size()>=8){
+                myapp_item_txt.setText(appInfoses.get(0).getAppName());
+                myapp_down_progressb.setTag(appInfoses.get(0).getDownId());
+                checkVisiProgress(appInfoses.get(0), myapp_down_loading_rl, myapp_down_complate_rl);
+                myapp_item_txt2.setText(appInfoses.get(1).getAppName());
+                myapp_down_progressb2.setTag(appInfoses.get(1).getDownId());
+                checkVisiProgress(appInfoses.get(1), myapp_down_loading_rl2, myapp_down_complate_rl2);
+                myapp_item_txt3.setText(appInfoses.get(2).getAppName());
+                myapp_down_progressb3.setTag(appInfoses.get(2).getDownId());
+                checkVisiProgress(appInfoses.get(2), myapp_down_loading_rl3, myapp_down_complate_rl3);
+                myapp_item_txt4.setText(appInfoses.get(3).getAppName());
+                myapp_down_progressb4.setTag(appInfoses.get(3).getDownId());
+                checkVisiProgress(appInfoses.get(3), myapp_down_loading_rl4, myapp_down_complate_rl4);
+                setProgressOnclickLisenter0To3(appInfoses);
+                setLoadImgLisenter0To3(appInfoses);
+
+                myapp_item_txt5.setText(appInfoses.get(4).getAppName());
+                myapp_down_progressb5.setTag(appInfoses.get(4).getDownId());
+                checkVisiProgress(appInfoses.get(4), myapp_down_loading_rl5, myapp_down_complate_rl5);
+                myapp_item_txt6.setText(appInfoses.get(5).getAppName());
+                myapp_down_progressb6.setTag(appInfoses.get(5).getDownId());
+                checkVisiProgress(appInfoses.get(5), myapp_down_loading_rl6, myapp_down_complate_rl6);
+                myapp_item_txt7.setText(appInfoses.get(6).getAppName());
+                myapp_down_progressb7.setTag(appInfoses.get(6).getDownId());
+                checkVisiProgress(appInfoses.get(6), myapp_down_loading_rl7, myapp_down_complate_rl7);
+                myapp_item_txt8.setText(appInfoses.get(7).getAppName());
+                myapp_down_progressb8.setTag(appInfoses.get(7).getDownId());
+                checkVisiProgress(appInfoses.get(7), myapp_down_loading_rl8, myapp_down_complate_rl8);
+                setProgressOnclickLisenter4To7(appInfoses);
+                setLoadImgLisenter4To7(appInfoses);
+
+            }
+
+
+
+
+        }
+
+    }
+
+    @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
+    private void setLoadImgLisenter0To3(List<AppInfosModel> appinfoList){
+        asyncImageLoaders.loadDrawable(Integer.valueOf(Utils.subStr(appinfoList.get(0).getAppIconUrl())), appinfoList.get(0).getAppIconUrl(), new AsyncImageLoader.ImageCallback() {
+            @Override
+            public void onLoaded(int viewId, Drawable drawable) {
+                myapp_item_img.setBackground(drawable);
+            }
+
+            @Override
+            public void onError(int viewId, Exception e) {
+
+            }
+        });
+        asyncImageLoaders.loadDrawable(Integer.valueOf(Utils.subStr(appinfoList.get(1).getAppIconUrl())), appinfoList.get(1).getAppIconUrl(), new AsyncImageLoader.ImageCallback() {
+            @Override
+            public void onLoaded(int viewId, Drawable drawable) {
+                myapp_item_img2.setBackground(drawable);
+            }
+
+            @Override
+            public void onError(int viewId, Exception e) {
+
+            }
+        });
+        asyncImageLoaders.loadDrawable(Integer.valueOf(Utils.subStr(appinfoList.get(2).getAppIconUrl())), appinfoList.get(2).getAppIconUrl(), new AsyncImageLoader.ImageCallback() {
+            @Override
+            public void onLoaded(int viewId, Drawable drawable) {
+                myapp_item_img3.setBackground(drawable);
+            }
+
+            @Override
+            public void onError(int viewId, Exception e) {
+
+            }
+        });
+        asyncImageLoaders.loadDrawable(Integer.valueOf(Utils.subStr(appinfoList.get(3).getAppIconUrl())), appinfoList.get(3).getAppIconUrl(), new AsyncImageLoader.ImageCallback() {
+            @Override
+            public void onLoaded(int viewId, Drawable drawable) {
+                myapp_item_img4.setBackground(drawable);
+            }
+
+            @Override
+            public void onError(int viewId, Exception e) {
+
+            }
+        });
+
+
+    }
+    @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
+    private void setLoadImgLisenter4To7(List<AppInfosModel> appinfoList){
+        asyncImageLoaders.loadDrawable(Integer.valueOf(Utils.subStr(appinfoList.get(4).getAppIconUrl())), appinfoList.get(4).getAppIconUrl(), new AsyncImageLoader.ImageCallback() {
+            @Override
+            public void onLoaded(int viewId, Drawable drawable) {
+                myapp_item_img5.setBackground(drawable);
+            }
+
+            @Override
+            public void onError(int viewId, Exception e) {
+
+            }
+        });
+        asyncImageLoaders.loadDrawable(Integer.valueOf(Utils.subStr(appinfoList.get(5).getAppIconUrl())), appinfoList.get(5).getAppIconUrl(), new AsyncImageLoader.ImageCallback() {
+            @Override
+            public void onLoaded(int viewId, Drawable drawable) {
+                myapp_item_img6.setBackground(drawable);
+            }
+
+            @Override
+            public void onError(int viewId, Exception e) {
+
+            }
+        });
+        asyncImageLoaders.loadDrawable(Integer.valueOf(Utils.subStr(appinfoList.get(6).getAppIconUrl())), appinfoList.get(6).getAppIconUrl(), new AsyncImageLoader.ImageCallback() {
+            @Override
+            public void onLoaded(int viewId, Drawable drawable) {
+                myapp_item_img7.setBackground(drawable);
+            }
+
+            @Override
+            public void onError(int viewId, Exception e) {
+
+            }
+        });
+        asyncImageLoaders.loadDrawable(Integer.valueOf(Utils.subStr(appinfoList.get(7).getAppIconUrl())), appinfoList.get(7).getAppIconUrl(), new AsyncImageLoader.ImageCallback() {
+            @Override
+            public void onLoaded(int viewId, Drawable drawable) {
+                myapp_item_img8.setBackground(drawable);
+            }
+
+            @Override
+            public void onError(int viewId, Exception e) {
+
+            }
+        });
+
+    }
+
+    private void setProgressOnclickLisenter0To3(final List<AppInfosModel> appinfoList){
+        myapp_item_img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                myapp_down_tv.setText("等待中");
+                 downClickAddToDownQueue(appinfoList.get(0));
+            }
+        });
+        myapp_item_img2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                myapp_down_tv2.setText("等待中");
+                 downClickAddToDownQueue(appinfoList.get(1));
+            }
+        });
+        myapp_item_img3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                myapp_down_tv3.setText("等待中");
+                downClickAddToDownQueue(appinfoList.get(2));
+            }
+        });
+        myapp_item_img4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                myapp_down_tv4.setText("等待中");
+                downClickAddToDownQueue(appinfoList.get(3));
+            }
+        });
+    }
+    private void setProgressOnclickLisenter4To7(final List<AppInfosModel> appinfoList){
+        myapp_item_img5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                myapp_down_tv5.setText("等待中");
+                downClickAddToDownQueue(appinfoList.get(4));
+            }
+        });
+        myapp_item_img6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                myapp_down_tv6.setText("等待中");
+                 downClickAddToDownQueue(appinfoList.get(5));
+            }
+        });
+        myapp_item_img7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                myapp_down_tv7.setText("等待中");
+                 downClickAddToDownQueue(appinfoList.get(6));
+            }
+        });
+        myapp_item_img8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                myapp_down_tv8.setText("等待中");
+                 downClickAddToDownQueue(appinfoList.get(7));
+            }
+        });
+    }
+
+    private void downClickAddToDownQueue(AppInfosModel appInfosModel){
+        try {
+            downloadManager.addNewDownload(appInfosModel.getAppUrl(), appInfosModel.getAppName(), Utils.getDiskDirByType(appInfosModel.getAppName()), true, true, new DownloadRequestCallBack());
+            AppDownInfoModel appDownInfoModel=new AppDownInfoModel
+                    (appInfosModel.getDownId(),appInfosModel.getAppName(),
+                            Utils.getDiskDirByType(appInfosModel.getAppName()),Constant.TRANSTYPE_APP,Constant.STATE_NONE);
+            //添加到自定义下载数据库
+            long l = DownloadDB.getDownInfoDB(this).inserDownFileInfo(appDownInfoModel);
+            Utils.Sout("insert Down",l);
+        } catch (DbException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void checkVisiProgress(AppInfosModel appInfoses,RelativeLayout loadRL,RelativeLayout completeRL){
+        if(appInfoses.getDownStatus()==Constant.STATE_DOWNLOADED){
+            loadRL.setVisibility(View.GONE);
+            completeRL.setVisibility(View.VISIBLE);
+        }else{
+            loadRL.setVisibility(View.VISIBLE);
+            completeRL.setVisibility(View.GONE);
+        }
+    }
+
+
+    @Override
+    public void initLisenter() {
+
+        nav_ll.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+
+
+        right_menu_rl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivity(MyAppActivity.this,DownloadCenterActivity.class);
+            }
+        });
+
+        appmap_nav_rl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MyAppActivity.this, MyAppListActivity.class);
+                intent.putExtra(MyAppListActivity.MYAPPEXTRA, (Serializable) appInfosList);
+                startActivity(intent);
+
+            }
+        });
+        appmap_vehicle_rl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MyAppActivity.this, MyAppListActivity.class);
+                intent.putExtra(MyAppListActivity.MYAPPEXTRA,(Serializable)appInfosList);
+                startActivity(intent);
+            }
+        });
+        appmap_off_rl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MyAppActivity.this, MyAppListActivity.class);
+                intent.putExtra(MyAppListActivity.MYAPPEXTRA,(Serializable)appInfosList);
+                startActivity(intent);
+            }
+        });
+
+    }
+
+    @Override
+    public void update(Observable observable, Object data) {
+        if (data instanceof DownObserverMsg){
+            DownObserverMsg msg= (DownObserverMsg) data;
+
+            Utils.Sout("msg",msg.toString());
+
+            Message message=new Message();
+            message.obj=msg;
+            message.what=0;
+            mHandler.sendMessage(message);
+        }
+    }
+}

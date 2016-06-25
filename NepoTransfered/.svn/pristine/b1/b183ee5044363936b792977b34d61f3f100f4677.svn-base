@@ -1,0 +1,570 @@
+[
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/activity_media_img.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/activity_media_img.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_media_img_item.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\activity_media_img_item.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/activity_media_img_item.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/activity_media_img_item.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/activity_personal.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/activity_personal.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/test.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/test.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/activity_download.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/activity_download.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/item_transfer_item.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/item_transfer_item.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_header.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\xlistview_header.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_media_video.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\activity_media_video.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_personal_detail.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\activity_personal_detail.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/item_transfer_type.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/item_transfer_type.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/fragment_map.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/fragment_map.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/activity_myapp_list.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/activity_myapp_list.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_media_music.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\activity_media_music.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/include_send_contro_layout.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/include_send_contro_layout.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/xlistview_header.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/xlistview_header.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/activity_transfer_item.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/activity_transfer_item.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/activity_media_music.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/activity_media_music.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/fragment_video.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/fragment_video.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/item_downloadlist_notransfer_item.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/item_downloadlist_notransfer_item.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_myapp_list.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\activity_myapp_list.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_download.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\activity_download.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_transfer_type.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\item_transfer_type.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_myapp_item.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\include_myapp_item.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/activity_splash.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/activity_personal_detail.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/activity_personal_detail.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_send_contro_layout.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\include_send_contro_layout.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_media_image.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\item_media_image.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_personal.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\activity_personal.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_media_music.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\item_media_music.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_media_img.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\activity_media_img.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_media.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\activity_media.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/activity_media.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/activity_media.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/activity_transfer.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/activity_transfer.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/activity_myapp.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/activity_myapp.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/fragment_application.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/fragment_application.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_myapplist.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\item_myapplist.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_myapp_item_vehicle.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\include_myapp_item_vehicle.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/item_media_video.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/item_media_video.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/include_myapp_item.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/include_myapp_item.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/item_media_music.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/item_media_music.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_media_image_item.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\item_media_image_item.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_myapp_item_nav.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\include_myapp_item_nav.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_music.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\fragment_music.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/activity_media_video.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/activity_media_video.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/include_myapp_item_nav.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/include_myapp_item_nav.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_footer.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\xlistview_footer.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\test.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/item_downloadlist_item.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/item_downloadlist_item.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/include_myapp_item_off_location.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/include_myapp_item_off_location.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_media_video.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\item_media_video.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/fragment_update.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/fragment_update.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/item_myapplist.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/item_myapplist.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_myapp_item_off_location.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\include_myapp_item_off_location.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/item_media_image_item.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/item_media_image_item.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/include_myapp_item_vehicle.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/include_myapp_item_vehicle.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/fragment_img.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/fragment_img.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/fragment_music.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/fragment_music.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_transfer_item.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\activity_transfer_item.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/item_media_image.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/item_media_image.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_downloadlist_notransfer_item.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\item_downloadlist_notransfer_item.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/xlistview_footer.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/layout/xlistview_footer.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_transfer.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\activity_transfer.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_myapp.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\activity_myapp.xml"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_downloadlist_item.xml",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\layout\\item_downloadlist_item.xml"
+    }
+]

@@ -1,0 +1,1454 @@
+[
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_open_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\personal_open_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_map.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon_map.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_open_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\personal_open_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trans_five.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/trans_five.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_mapapp_item.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon_mapapp_item.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_vehicle.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\icon_vehicle.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_map_off_oval_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon_map_off_oval_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/personal_top_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/personal_top_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\toolbar_send_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\toolbar_send_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\transmission_circle.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\transmission_circle.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trans_ic_address.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/trans_ic_address.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/media_pic_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/media_pic_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\media_music_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\media_music_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi_tab_unselected_focused_holo.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\vpi_tab_unselected_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vpi_tab_unselected_focused_holo.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/vpi_tab_unselected_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\transfer_car.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\transfer_car.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\media_pic_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\media_pic_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/list_arrow_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/list_arrow_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\choose_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\choose_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trans_ic_picture.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/trans_ic_picture.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_btn_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\personal_btn_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_advers_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/home_advers_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trans_item_start.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/trans_item_start.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\home_noselectline.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\home_noselectline.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trans_ic_app.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/trans_ic_app.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/transfer_connect.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/transfer_connect.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tips_bg.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\tips_bg.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_btn_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\personal_btn_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_corner.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\icon_corner.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/transmission_top_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/transmission_top_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_mapapp_item_video.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon_mapapp_item_video.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_selcet.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\icon_selcet.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\icon_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_mapapp_item_three.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\icon_mapapp_item_three.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_mapapp_item_wait.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon_mapapp_item_wait.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_map_off_oval_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\icon_map_off_oval_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\media_pic_bg_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\media_pic_bg_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\transmission_circling.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\transmission_circling.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\transfer_connect.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\transfer_connect.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/pic_thumb.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/pic_thumb.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_top_line.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\personal_top_line.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\transmission_menu_picture_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\transmission_menu_picture_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_mapapp_item_map.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon_mapapp_item_map.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\home_selectline.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\home_selectline.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/list_arrow_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/list_arrow_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vpi_tab_unselected_holo.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/vpi_tab_unselected_holo.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic_thumb.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\pic_thumb.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_transmission.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/home_transmission.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\trans_item_del.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\trans_item_del.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\toolbar_cancel_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\toolbar_cancel_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi_tab_selected_pressed_holo.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\vpi_tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/transmission_menu_picture_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/transmission_menu_picture_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\transfer_phone.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\transfer_phone.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_item_bottom_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\icon_item_bottom_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_mapapp_item_complete.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\icon_mapapp_item_complete.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/personal_list_ic_insurance.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/personal_list_ic_insurance.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\home_personal_center.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\home_personal_center.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/media_pic_bg_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/media_pic_bg_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\transmission_menu_map_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\transmission_menu_map_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/transmission_menu_application_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/transmission_menu_application_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_list_ic_about.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\personal_list_ic_about.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\trans_ic_address.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\trans_ic_address.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/list_icos_dustbin.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/list_icos_dustbin.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\trans_ic_offlinepackage.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\trans_ic_offlinepackage.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_myapp_down.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\icon_myapp_down.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/list_img_default_s.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/list_img_default_s.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_corner.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon_corner.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_mapapp_item_two.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\icon_mapapp_item_two.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trans_item_del.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/trans_item_del.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/personal_btn_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/personal_btn_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/transfer_left_connect_line.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/transfer_left_connect_line.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\toolbar_send_tips_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\toolbar_send_tips_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_top_head_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\personal_top_head_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_actionbar_back_normal.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\icon_actionbar_back_normal.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\home_transmission.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\home_transmission.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\home_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\home_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_list_ic_insurance.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\personal_list_ic_insurance.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_answer_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\personal_answer_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/folder.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/folder.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/transmission_menu_application_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/transmission_menu_application_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trans_item_pause.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/trans_item_pause.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi_tab_unselected_pressed_holo.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\vpi_tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\trans_zero.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\trans_zero.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/personal_top_head.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/personal_top_head.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/list_music_s.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/list_music_s.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_circle.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/home_circle.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trans_zero.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/trans_zero.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_mapapp_item_imge.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon_mapapp_item_imge.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/toolbar_send_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/toolbar_send_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trans_six.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/trans_six.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/pic_dir.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/pic_dir.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_splash.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon_splash.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_mymedia.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/home_mymedia.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\trans_four.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\trans_four.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/transmission_circling.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/transmission_circling.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_map_off_oval.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon_map_off_oval.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_cutting_line.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/home_cutting_line.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_mapapp_item_ram.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\icon_mapapp_item_ram.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trans_ic_compress.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/trans_ic_compress.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi_tab_unselected_holo.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\vpi_tab_unselected_holo.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vpi_tab_selected_holo.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/vpi_tab_selected_holo.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_item_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\icon_item_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/red_bg.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/red_bg.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi_tab_selected_focused_holo.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\vpi_tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_icon_blank_music.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\list_icon_blank_music.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_item_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon_item_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/xlistview_arrow.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/xlistview_arrow.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_video_s.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\list_video_s.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/toolbar_send_tips_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/toolbar_send_tips_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\home_circle.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\home_circle.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/pictures_no.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/pictures_no.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/media_music_bg_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/media_music_bg_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trans_transfeing_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/trans_transfeing_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\transmission_menu_picture_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\transmission_menu_picture_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trans_three.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/trans_three.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trans_ic_offlinepackage.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/trans_ic_offlinepackage.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\trans_serven.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\trans_serven.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_list_ic_search.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\personal_list_ic_search.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/personal_list_ic_maintenance.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/personal_list_ic_maintenance.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/toolbar_cancel_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/toolbar_cancel_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_music_s.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\list_music_s.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\toolbar_selectall_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\toolbar_selectall_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\media_video_bg_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\media_video_bg_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_noselectline.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/home_noselectline.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\transmission_top_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\transmission_top_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_list_ic_maintenance.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\personal_list_ic_maintenance.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\choose_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\choose_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/transmission_menu_map_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/transmission_menu_map_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trans_eight.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/trans_eight.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_top_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\personal_top_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/transmission_menu_music_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/transmission_menu_music_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_icos_dustbin.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\list_icos_dustbin.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\red_bg.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\red_bg.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_mapapp_item.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\icon_mapapp_item.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trans_nine.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/trans_nine.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\xlistview_arrow.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\xlistview_arrow.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_black_16dp.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\trans_ic_app.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\trans_ic_app.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_mapapp_item_imge.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\icon_mapapp_item_imge.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/media_music_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/media_music_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\toolbar_send_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\toolbar_send_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/transmission_menu_map_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/transmission_menu_map_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\media_music_bg_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\media_music_bg_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_icon_blank_imges.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\list_icon_blank_imges.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/home_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trans_ic_application.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/trans_ic_application.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/media_video_bg_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/media_video_bg_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\transmission_menu_music_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\transmission_menu_music_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trans_notransfer_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/trans_notransfer_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\home_cutting_line.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\home_cutting_line.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic_dir.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\pic_dir.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\home_connection.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\home_connection.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_arrow_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\list_arrow_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trans_two.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/trans_two.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/personal_list_ic_update.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/personal_list_ic_update.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tips_bg.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/tips_bg.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/list_icon_blank_imges.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/list_icon_blank_imges.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/choose_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/choose_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trans_four.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/trans_four.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\media_video_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\media_video_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\transmission_menu_application_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\transmission_menu_application_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\transmission_menu_application_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\transmission_menu_application_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/toolbar_selectall_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/toolbar_selectall_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trans_serven.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/trans_serven.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_mapapp_item_apk.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon_mapapp_item_apk.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/media_video_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/media_video_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_map.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\icon_map.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\home_mymedia.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\home_mymedia.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\trans_ic_media.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\trans_ic_media.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/content_list_icon_to.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/content_list_icon_to.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_map_off.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\icon_map_off.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/transmission_menu_music_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/transmission_menu_music_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_answer_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\personal_answer_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\trans_item_pause.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\trans_item_pause.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\transmission_menu_map_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\transmission_menu_map_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_mapapp_item_ram.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon_mapapp_item_ram.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\transmission_menu_update_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\transmission_menu_update_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/toolbar_send_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/toolbar_send_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/personal_list_ic_search.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/personal_list_ic_search.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\trans_three.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\trans_three.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\toolbar_cancel_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\toolbar_cancel_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_mapapp_item_complete.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon_mapapp_item_complete.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/transmission_menu_video_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/transmission_menu_video_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_mapapp_item_video.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\icon_mapapp_item_video.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vpi_tab_selected_focused_holo.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/vpi_tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/transmission_menu_video_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/transmission_menu_video_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\trans_eight.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\trans_eight.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/personal_top_line.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/personal_top_line.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\trans_item_start.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\trans_item_start.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_mapapp_item_apk.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\icon_mapapp_item_apk.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/personal_btn_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/personal_btn_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/personal_top_head_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/personal_top_head_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_actionbar_back_normal.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon_actionbar_back_normal.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_selcet.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon_selcet.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/transfer_right_connect_line.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/transfer_right_connect_line.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\transfer_right_connect_line.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\transfer_right_connect_line.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tips_smile.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/tips_smile.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/list_img_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/list_img_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_noconnection.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/home_noconnection.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_mapapp_item_three.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon_mapapp_item_three.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\transmission_menu_update_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\transmission_menu_update_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_map_off.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon_map_off.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/transfer_phone.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/transfer_phone.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/toolbar_cancel_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/toolbar_cancel_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/list_icon_blank_music.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/list_icon_blank_music.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_list_ic_update.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\personal_list_ic_update.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_mapapp_item_map.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\icon_mapapp_item_map.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_icon_blank_vidio.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\list_icon_blank_vidio.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\home_advers_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\home_advers_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/personal_open_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/personal_open_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\personal_top_head.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\personal_top_head.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/list_img_default_x.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/list_img_default_x.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_map_off_oval.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\icon_map_off_oval.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi_tab_selected_holo.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\vpi_tab_selected_holo.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/personal_open_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/personal_open_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_vehicle.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon_vehicle.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_mapapp_item_wait.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\icon_mapapp_item_wait.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_img_default_x.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\list_img_default_x.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/list_video_s.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/list_video_s.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_mapapp_item_music.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\icon_mapapp_item_music.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tips_smile.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\tips_smile.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/personal_answer_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/personal_answer_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\transmission_menu_music_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\transmission_menu_music_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_connection.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/home_connection.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\trans_ic_video.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\trans_ic_video.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/transmission_menu_update_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/transmission_menu_update_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trans_ic_media.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/trans_ic_media.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/transmission_menu_update_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/transmission_menu_update_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_app_down_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon_app_down_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\home_myapp.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\home_myapp.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\trans_six.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\trans_six.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trans_notransfer_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/trans_notransfer_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_arrow_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\list_arrow_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/list_icon_blank_vidio.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/list_icon_blank_vidio.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_personal_center.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/home_personal_center.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/transmission_menu_picture_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/transmission_menu_picture_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_myapp_down.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon_myapp_down.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\trans_one.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\trans_one.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_img_default_s.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\list_img_default_s.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\home_noconnection.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\home_noconnection.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/choose_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/choose_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_mapapp_item_two.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon_mapapp_item_two.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_black_36dp.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/personal_list_ic_about.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/personal_list_ic_about.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\trans_ic_picture.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\trans_ic_picture.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_img_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\list_img_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\transmission_menu_video_nor.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\transmission_menu_video_nor.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pictures_no.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\pictures_no.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vpi_tab_unselected_pressed_holo.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/vpi_tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\trans_ic_application.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\trans_ic_application.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_app_down_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\icon_app_down_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/personal_answer_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/personal_answer_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\trans_ic_compress.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\trans_ic_compress.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vpi_tab_selected_pressed_holo.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/vpi_tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\trans_nine.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\trans_nine.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_myapp.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/home_myapp.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trans_ic_video.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/trans_ic_video.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\trans_five.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\trans_five.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_mapapp_item_music.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon_mapapp_item_music.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/home_selectline.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/home_selectline.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/transmission_circle.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/transmission_circle.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/transfer_car.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/transfer_car.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trans_one.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/trans_one.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\transmission_menu_video_sel.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\transmission_menu_video_sel.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_focused_holo.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-xhdpi-v4/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_item_bottom_bg.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/drawable-xhdpi/icon_item_bottom_bg.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\transfer_left_connect_line.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\transfer_left_connect_line.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\content_list_icon_to.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\content_list_icon_to.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\trans_two.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\trans_two.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\folder.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\drawable-xhdpi\\folder.png"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/E:\\AndroidStudioPro\\Nepo\\NepoTransfered\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
+        "source": "/Users/shen/AndroidStudioProjects/NepoTransfered/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    }
+]

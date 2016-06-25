@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/item_media_image_ll"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="2.5"
+        android:orientation="horizontal"
+        >
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/item_media_image_imageimg_bg_iv"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/list_img_bg"
+                    />
+                <ImageView
+                    android:id="@+id/item_media_image_imageimg_iv"
+                    android:layout_width="58dp"
+                    android:layout_height="58dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/list_img_default_s"
+                    />
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/item_media_image_imagename_tv"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:text="图片路径" />
+
+            <TextView
+                android:id="@+id/item_media_image_size_tv"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:text="数量" />
+
+            <ProgressBar
+                android:id="@+id/item_download_content_pb"
+                style="@style/StyleProgressBarMini"
+                android:layout_width="match_parent"
+                android:layout_below="@id/item_download_content_name_tv"
+                android:layout_height="1dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/shape_progressbar_bg"
+                android:gravity="center_horizontal"
+                android:max="100"
+                android:layout_marginBottom="0dp"
+                android:progress="0" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:id="@+id/item_media_image_check"
+            android:layout_width="8dp"
+            android:layout_height="18dp"
+            android:background="@drawable/icon_selcet"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

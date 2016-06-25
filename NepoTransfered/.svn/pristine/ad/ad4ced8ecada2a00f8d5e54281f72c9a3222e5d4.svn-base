@@ -1,0 +1,159 @@
+package com.nepo.nepotransfered.adapter;
+
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.ProgressBar;
+import android.widget.TextView;
+
+import com.nepo.nepotransfered.R;
+import com.nepo.nepotransfered.model.TransferModel;
+import com.nepo.nepotransfered.model.TransferProgressModel;
+import com.nepo.nepotransfered.utils.Utils;
+import com.squareup.picasso.Picasso;
+
+import java.io.File;
+import java.util.List;
+
+/**
+ * Created by shen on 16/6/6.
+ */
+public class TransferItemAdapter extends BaseAdapter {
+
+
+    private Context mContext;
+    private List<TransferModel> transferModelList;
+    private LayoutInflater mInflater;
+    private OnTransferDelClickLisenter onTransferDelClickLisenter;
+    private TransferProgressModel entity;
+
+    public void setEntity(TransferProgressModel entity) {
+        this.entity = entity;
+        for (int i = 0; i < transferModelList.size(); i++) {
+            if(transferModelList.get(i).getTransHashCode().equals(entity.getTransHashCode())){
+                transferModelList.get(i).setTransProgress(entity.getTransProgress());
+            }
+        }
+        notifyDataSetChanged();
+
+    }
+
+    public void setOnTransferDelClickLisenter(OnTransferDelClickLisenter onTransferDelClickLisenter) {
+        this.onTransferDelClickLisenter = onTransferDelClickLisenter;
+    }
+
+    public TransferItemAdapter(Context mContext, List<TransferModel> transferModelList) {
+        this.mContext = mContext;
+        this.transferModelList = transferModelList;
+        mInflater = LayoutInflater.from(mContext);
+
+
+    }
+
+    public void refresh(List<TransferModel> list) {
+        transferModelList=list;
+        notifyDataSetChanged();
+    }
+
+
+    @Override
+    public int getCount() {
+        return transferModelList.size();
+    }
+
+    @Override
+    public TransferModel getItem(int position) {
+        if (position < 0 || position > transferModelList.size()) {
+            return null;
+        }
+
+        return transferModelList.get(position);
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return position;
+    }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        ViewHolder viewHolder = null;
+        if (null == convertView) {
+            convertView = mInflater.inflate(R.layout.item_transfer_item, null);
+            viewHolder = new ViewHolder();
+            convertView.setTag(viewHolder);
+        } else {
+            viewHolder = (ViewHolder) convertView.getTag();
+        }
+        viewHolder.item_transfer_del_ll = (LinearLayout) convertView.findViewById(R.id.item_transfer_del_ll);
+        viewHolder.item_transfer_img_iv = (ImageView) convertView.findViewById(R.id.item_transfer_img_iv);
+        viewHolder.item_transfer_name_tv = (TextView) convertView.findViewById(R.id.item_transfer_name_tv);
+        viewHolder.item_transfer_size_tv = (TextView) convertView.findViewById(R.id.item_transfer_size_tv);
+        viewHolder.item_transfer_pb = (ProgressBar) convertView.findViewById(R.id.item_transfer_pb);
+
+
+
+        final TransferModel item = getItem(position);
+
+
+        if (item != null) {
+            // 标题
+            viewHolder.item_transfer_name_tv.setText(item.getTransName());
+            String fileSize = Utils.FormetFileSize(Long.valueOf(item.getTransLength()));
+            // 计数
+
+            // 加载图片
+            if(item.getTransBitmap()!=null){
+                viewHolder.item_transfer_img_iv.setImageBitmap(item.getTransBitmap());
+            }else{
+                Picasso.with(mContext)
+                    .load("file://" + new File(item.getTransPath()).getAbsolutePath())
+                    .resize(120, 120)
+                    .placeholder(R.drawable.list_img_default_x)
+                    .error(R.drawable.list_img_default_x)
+                    .into(viewHolder.item_transfer_img_iv);
+            }
+
+            // 传输进度
+            viewHolder.item_transfer_pb.setProgress(item.getTransProgress());
+
+            if(item.getTransProgress()>99){
+                viewHolder.item_transfer_size_tv.setText("传输完成");
+            }else{
+                viewHolder.item_transfer_size_tv.setText(fileSize+"/"+"等待传输");
+            }
+
+        }
+
+
+        viewHolder.item_transfer_del_ll.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onTransferDelClickLisenter.onDel(item);
+            }
+        });
+
+
+        return convertView;
+    }
+
+
+    public interface OnTransferDelClickLisenter{
+        void onDel(TransferModel model);
+    }
+
+
+    class ViewHolder {
+        LinearLayout item_transfer_del_ll;
+        ImageView item_transfer_img_iv;
+        TextView item_transfer_name_tv;
+        TextView item_transfer_size_tv;
+        ProgressBar item_transfer_pb;
+
+
+    }
+}

@@ -1,0 +1,86 @@
+package com.nepo.nepotransfered;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageButton;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+
+/**
+ * Created by lsiuhen on 2016/5/26.
+ */
+public class MediaActivity extends BaseActivity {
+
+    /**
+     * 视图
+     * @param savedInstanceState
+     */
+    private RelativeLayout nav_ll;
+
+    private TextView music_item_num_iv;
+    private TextView pic_item_num_iv;
+    private TextView video_item_num_iv;
+
+    private ImageButton music_item_ib;
+    private ImageButton pic_item_ib;
+    private ImageButton video_item_ib;
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_media);
+        initView();
+        initLisenter();
+    }
+
+    @Override
+    public void initView() {
+        isImmersion(true);
+        nav_ll = (RelativeLayout) findViewById(R.id.nav_ll);
+        music_item_num_iv = (TextView) findViewById(R.id.music_item_num_iv);
+        pic_item_num_iv = (TextView) findViewById(R.id.pic_item_num_iv);
+        video_item_num_iv = (TextView) findViewById(R.id.video_item_num_iv);
+        music_item_ib= (ImageButton) findViewById(R.id.music_item_ib);
+        pic_item_ib= (ImageButton) findViewById(R.id.pic_item_ib);
+        video_item_ib= (ImageButton) findViewById(R.id.video_item_ib);
+    }
+
+    @Override
+    public void initData() {
+
+    }
+
+    @Override
+    public void initLisenter() {
+        music_item_ib.setOnTouchListener(TouchDarkMedia);
+        pic_item_ib.setOnTouchListener(TouchDarkMedia);
+        video_item_ib.setOnTouchListener(TouchDarkMedia);
+
+        music_item_ib.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivity(MediaActivity.this,MediaMusicActivity.class);
+            }
+        });
+        pic_item_ib.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivity(MediaActivity.this,MediaImgActivity.class);
+            }
+        });
+        video_item_ib.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivity(MediaActivity.this,MediaVideoActivity.class);
+            }
+        });
+
+        nav_ll.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+    }
+}

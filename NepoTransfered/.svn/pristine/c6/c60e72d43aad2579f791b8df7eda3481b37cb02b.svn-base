@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2.5"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/item_myapplist_iv"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_myapplist_tv"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:layout_weight="1"
+                android:text="应用名称" />
+
+            <TextView
+                android:id="@+id/item_myapplist_size_tv"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="大小" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+        <RelativeLayout
+            android:id="@+id/item_myapplist_down_complate_rl"
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/item_myapplist_down_complate_tv_rl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="已下载"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_myapplist_down_loading_rl"
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:background="@drawable/icon_app_down_bg"
+            android:visibility="visible">
+            <ProgressBar
+                android:id="@+id/item_myapplist_down_progressb"
+                style="@style/StyleProgressBarMini"
+                android:layout_width="43dp"
+                android:layout_height="18dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/shape_progressbar_bg"
+                android:gravity="center_horizontal"
+                android:max="100"
+                android:progress="0" />
+
+
+            <TextView
+                android:id="@+id/item_myapplist_down_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="下载"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,158 @@
+package com.nepo.nepotransfered.adapter;
+
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.nepo.nepotransfered.R;
+import com.nepo.nepotransfered.TransferItemActivity;
+import com.nepo.nepotransfered.app.Constant;
+import com.nepo.nepotransfered.model.TransferTypeModel;
+import com.nepo.nepotransfered.view.dragview.BaseDragAdapter;
+import com.nepo.nepotransfered.view.dragview.BaseItem;
+import com.nepo.nepotransfered.view.dragview.ListToJson;
+import com.nepo.nepotransfered.view.dragview.ProvinceItem;
+
+import java.util.List;
+
+/**
+ * Created by lsiuhen on 2016/6/3.
+ * 传输类型 adapter
+ */
+public class TransferTypeAdapter extends BaseDragAdapter {
+
+    private Context context;
+    private int dropPosition = -1;
+    private List<TransferTypeModel> transferTypeModels;
+    private SharedPreferences mShared;
+    private SharedPreferences.Editor mEditor;
+    private ProvinceItem selectItem;
+
+    public TransferTypeAdapter(Context context,List<TransferTypeModel> transferTypeModels){
+        this.context = context;
+        this.transferTypeModels = transferTypeModels;
+       // mShared = context.getSharedPreferences(Constant.USER,0);
+//        mEditor = mShared.edit();
+//        selectItem = provinceList.get(0);
+    }
+
+    public void refresh(List<TransferTypeModel> transferTypeModels){
+        this.transferTypeModels=transferTypeModels;
+        notifyDataSetChanged();
+    }
+
+    @Override
+    public int getCount() {
+        return transferTypeModels == null ? 0 : transferTypeModels.size();
+    }
+
+    @Override
+    public TransferTypeModel getItem(int position) {
+        if (null != transferTypeModels && transferTypeModels.size() != 0){
+            return transferTypeModels.get(position);
+        }
+        return null;
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return position;
+    }
+
+    @Override
+    public View getView(final int position, final View convertView, ViewGroup parent) {
+        final View view = LayoutInflater.from(context).inflate(R.layout.item_transfer_type,parent,false);
+        TextView textView = (TextView) view.findViewById(R.id.title_tv);
+
+        final TransferTypeModel item = transferTypeModels.get(position);
+        textView.setText(item.getTransferListLength()+"");
+        if (dropPosition == position){
+            view.setVisibility(View.GONE);
+        }
+
+        view.setBackgroundResource(item.getTransferBgResourceId());
+        view.setTag(item);
+
+        return view;
+    }
+
+    @Override
+    public void addItem(BaseItem item) {
+//        provinceList.add((ProvinceItem) item);
+//        notifyDataSetChanged();
+    }
+
+    @Override
+    public void exchange(int dragPosition, int dropPosition) {
+        // TODO: 16-3-22 互换位置 【可用代码】
+//        this.dropPosition = dropPosition;
+//        ProvinceItem dragItem = (ProvinceItem) getItem(dragPosition);
+//        if (dragPosition < dropPosition) {
+//            provinceList.add(dropPosition + 1, dragItem);
+//            provinceList.remove(dragPosition);
+//        } else {
+//            provinceList.add(dropPosition, dragItem);
+//            provinceList.remove(dragPosition + 1);
+//        }
+//
+//        mEditor.putString(Constant.PROVINCE, ListToJson.toJson(provinceList).toString());
+//        mEditor.commit();
+//        notifyDataSetChanged();
+    }
+
+    @Override
+    public void removeItem(BaseItem item) {
+//        if (provinceList.contains(item)){
+//            provinceList.remove(item);
+//            dropPosition = -1;
+//            notifyDataSetChanged();
+//        }
+    }
+
+    @Override
+    public void removePosition(int position) {
+//        if (position >=0 && position<provinceList.size()){
+//            provinceList.remove(position);
+//            mEditor.putString(Constant.PROVINCE, ListToJson.toJson(provinceList).toString());
+//            mEditor.commit();
+//            notifyDataSetChanged();
+//        }
+    }
+
+    @Override
+    public void dragEnd() {
+// TODO: 16-3-26 拖动完成的回调【可用代码】
+//        int position = 0;
+//        for (int i = 0; i < provinceList.size(); i++) {
+//            if (selectItem.getId()==provinceList.get(i).getId()){
+//                position = i;
+//                break;
+//            }
+//        }
+//
+//        this.dropPosition = -1;
+//        if (null != listener){
+//            listener.exchangeOtherAdapter(provinceList, position);
+//        }
+//        notifyDataSetChanged();
+    }
+
+    private changeListener listener;
+
+    public void setListener(changeListener listener){
+        this.listener = listener;
+    }
+
+    public interface changeListener{
+
+         void exchangeOtherAdapter(List<ProvinceItem> data,int position);
+
+         void setCurrentPosition();
+    }
+
+}

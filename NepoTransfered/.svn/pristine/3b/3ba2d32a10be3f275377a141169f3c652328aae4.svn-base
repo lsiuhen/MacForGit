@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+
+    <ImageView
+        android:id="@+id/myapp_item_img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/icon_mapapp_item"
+         />
+
+    <TextView
+        android:id="@+id/myapp_item_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="百度地图"
+        android:textSize="11sp" />
+
+
+    <RelativeLayout
+        android:id="@+id/myapp_down_complate_rl"
+        android:layout_width="45dp"
+        android:layout_height="20dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/myapp_down_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="已下载"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/myapp_down_loading_rl"
+        android:layout_width="45dp"
+        android:layout_height="20dp"
+        android:background="@drawable/icon_app_down_bg"
+        android:visibility="visible">
+        <ProgressBar
+            android:id="@+id/myapp_down_progressb"
+            style="@style/StyleProgressBarMini"
+            android:layout_width="43dp"
+            android:layout_height="18dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/shape_progressbar_bg"
+            android:gravity="center_horizontal"
+            android:max="100"
+            android:progress="0" />
+
+
+        <TextView
+            android:id="@+id/myapp_down_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="下载"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+</LinearLayout>

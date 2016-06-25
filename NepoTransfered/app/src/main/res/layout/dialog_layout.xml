@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="280dp"
+    android:layout_height="300dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:background="@drawable/home_conn_err_icon"
+        />
+    <ImageView
+        android:id="@+id/dialog_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/home_open_wifi_btn_icon"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

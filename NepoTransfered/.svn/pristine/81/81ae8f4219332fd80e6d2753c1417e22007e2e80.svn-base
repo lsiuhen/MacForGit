@@ -1,0 +1,188 @@
+package com.nepo.nepotransfered;
+
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.os.Build;
+import android.os.Bundle;
+import android.text.TextUtils;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ImageButton;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.nepo.nepotransfered.adapter.TransferTypeAdapter;
+import com.nepo.nepotransfered.app.Constant;
+import com.nepo.nepotransfered.db.TransferDB;
+import com.nepo.nepotransfered.model.TransferModel;
+import com.nepo.nepotransfered.model.TransferProgressModel;
+import com.nepo.nepotransfered.model.TransferTypeModel;
+import com.nepo.nepotransfered.utils.SPUtils;
+import com.nepo.nepotransfered.utils.SystemBarTintUtils;
+import com.nepo.nepotransfered.utils.Utils;
+import com.nepo.nepotransfered.view.dragview.DragGridView;
+import com.nepo.nepotransfered.view.dragview.ProvinceItem;
+import com.nepo.nepotransfered.view.dragview.ProvinceModel;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Created by lsiuhen on 2016/6/1.
+ * 传输中心
+ */
+public class TransferActivity extends BaseActivity {
+
+    /**
+     * 视图
+     */
+    private RelativeLayout nav_ll;
+    private DragGridView transfer_gridView;
+    private RelativeLayout transfer_notransfer_rl;
+    private ImageButton transfer_notransfer_ibtn;
+    private RelativeLayout transfer_transfeing_rl;
+    private TextView transfer_transfeing_curr_tv;
+    private TextView transfer_transfeing_total_tv;
+    /**
+     * 数据
+     * @param savedInstanceState
+     */
+    //测试数据
+    private List<ProvinceItem> items = new ArrayList<>();
+    private SharedPreferences mShared;
+    private SharedPreferences.Editor mEditor;
+    ProvinceModel model;
+    //真实数据
+    private List<TransferTypeModel> transferTypeModels;
+    private List<TransferProgressModel> transferProgressModels;
+    private TransferTypeAdapter transferTypeAdapter;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_transfer);
+        initView();
+        initLisenter();
+        initData();
+    }
+
+    @Override
+    public void initView() {
+        // 沉浸式
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            setTranslucentStatus(true);
+        }
+        SystemBarTintUtils tintManager = new SystemBarTintUtils(this);
+        tintManager.setStatusBarTintEnabled(true);
+        tintManager.setNavigationBarTintEnabled(false);
+        tintManager.setStatusBarTintResource(R.color.lightblue);
+
+        nav_ll= (RelativeLayout) findViewById(R.id.nav_ll);
+        transfer_gridView= (DragGridView) findViewById(R.id.transfer_gridView);
+        transfer_gridView= (DragGridView) findViewById(R.id.transfer_gridView);
+        transfer_notransfer_rl= (RelativeLayout) findViewById(R.id.transfer_notransfer_rl);
+        transfer_notransfer_ibtn= (ImageButton) findViewById(R.id.transfer_notransfer_ibtn);
+        transfer_transfeing_rl= (RelativeLayout) findViewById(R.id.transfer_transfeing_rl);
+        transfer_transfeing_curr_tv= (TextView) findViewById(R.id.transfer_transfeing_curr_tv);
+        transfer_transfeing_total_tv= (TextView) findViewById(R.id.transfer_transfeing_total_tv);
+
+
+
+    }
+
+    @Override
+    public void initData() {
+        //查询传输进程队列中是否有队列、有队列并且进度可显示，显示进度；传输进程队列无数据清除本地显示进度Flag;
+        transferProgressModels = TransferDB.getTransferDB(this).queryAllTransferProgress();
+        if(transferProgressModels.size()<1){
+            SPUtils.remove(this,Constant.SP_TRANSFER);
+            transfer_notransfer_rl.setVisibility(View.VISIBLE);
+            transfer_transfeing_rl.setVisibility(View.GONE);
+        }else{
+            String isVisi = SPUtils.get(TransferActivity.this, Constant.SP_TRANSFER, "").toString();
+            if(!TextUtils.isEmpty(isVisi)){
+                transfer_notransfer_rl.setVisibility(View.GONE);
+                transfer_transfeing_rl.setVisibility(View.VISIBLE);
+                transfer_transfeing_curr_tv.setText(transferProgressModels.size()+"");
+                transfer_transfeing_total_tv.setText("/"+transferProgressModels.size()+"");
+            }else{
+                transfer_notransfer_rl.setVisibility(View.VISIBLE);
+                transfer_transfeing_rl.setVisibility(View.GONE);
+            }
+        }
+
+
+        init();
+    }
+
+    private void init() {
+        //TODO[可用代码]
+        transferTypeModels= TransferDB.getTransferDB(this).queryAllType();
+        transferTypeAdapter=new TransferTypeAdapter(this, transferTypeModels);
+        transfer_gridView.setAdapter(transferTypeAdapter);
+       //是否可拖动
+        transfer_gridView.setIsDrag(true);
+    }
+
+
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        transferTypeModels= TransferDB.getTransferDB(this).queryAllType();
+        transferTypeAdapter.refresh(transferTypeModels);
+    }
+
+    @Override
+    public void initLisenter() {
+        nav_ll.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+
+        transfer_gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent=new Intent(TransferActivity.this,TransferItemActivity.class);
+                intent.putExtra(TransferItemActivity.EXTRA_TYPE,transferTypeModels.get(position).getTypeName());
+                startActivity(intent);
+            }
+        });
+
+        transfer_notransfer_ibtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //查看传输进程队列中是否有数据存在，存在显示数字,如果没有就添加到传输进程队列中，并开始发送，全部数据
+                //TODO 添加所有存在的待传输文件 到传输进程中
+                TransferDB.getTransferDB(TransferActivity.this).insertToTransferProgress(transferTypeModels);
+                //添加到全局变量，等待心跳包的轮询
+                List<TransferProgressModel> transferProgressModels = TransferDB.getTransferDB(TransferActivity.this).queryAllTransferProgress();
+                Constant.addToTransingList(transferProgressModels);
+                SPUtils.put(TransferActivity.this,Constant.SP_TRANSFER,Constant.SP_TRANSFER);
+                //视频
+                SPUtils.put(TransferActivity.this, Constant.SP_VIDEOSEEKCIRCLE, Constant.SP_VIDEOSEEKCIRCLE);
+                //图片
+                SPUtils.put(TransferActivity.this, Constant.SP_IMGSEEKCIRCLE, Constant.SP_IMGSEEKCIRCLE);
+                //音乐
+                SPUtils.put(TransferActivity.this, Constant.SP_MUSICSEEKCIRCLE, Constant.SP_MUSICSEEKCIRCLE);
+                transfer_notransfer_rl.setVisibility(View.GONE);
+                transfer_transfeing_rl.setVisibility(View.VISIBLE);
+                TransferActivity.this.transferProgressModels = TransferDB.getTransferDB(TransferActivity.this).queryAllTransferProgress();
+                transfer_transfeing_curr_tv.setText(TransferActivity.this.transferProgressModels.size()+"");
+                transfer_transfeing_total_tv.setText("/"+ TransferActivity.this.transferProgressModels.size()+"");
+            }
+        });
+
+        transfer_transfeing_rl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String transJsonArrayByList = Constant.getTransJsonArrayByList();
+                Utils.Sout("json",transJsonArrayByList);
+            }
+        });
+
+    }
+}
