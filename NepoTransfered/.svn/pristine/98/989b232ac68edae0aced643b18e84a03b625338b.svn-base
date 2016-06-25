@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/nav_ll"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@color/blue">
+
+        <ImageView
+            android:id="@+id/left_img"
+            android:layout_width="@dimen/activity_bar_back"
+            android:layout_height="@dimen/activity_bar_back"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:gravity="center"
+            android:src="@drawable/icon_actionbar_back_normal" />
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxWidth="220.0dip"
+            android:singleLine="true"
+            android:text="爱车信息"
+            android:textColor="#f7f7f7"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/right_menu"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:paddingBottom="5dip"
+            android:paddingRight="10dip"
+            android:paddingTop="5dip"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/nav_ll"
+        android:background="#22000000"
+        android:orientation="vertical">
+
+        <!--个人头像-->
+        <RelativeLayout
+            android:id="@+id/car_list_carimg"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/personal_list_insurance_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/personal_list_margin"
+                android:background="@drawable/personal_list_ic_insurance"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/personal_list_margin"
+                android:layout_toRightOf="@id/personal_list_insurance_iv"
+                android:textColor="@color/black"
+                android:text="个人头像" />
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/personal_list_margin"
+                android:layout_toLeftOf="@+id/personal_list_carimg_arrow_ib"
+                android:background="@drawable/personal_top_head_bg" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/personal_list_carimg_iv"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/personal_list_margin"
+                android:layout_toLeftOf="@+id/personal_list_carimg_arrow_ib"
+                 />
+
+
+            <ImageButton
+                android:id="@+id/personal_list_carimg_arrow_ib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/personal_list_margin"
+                android:background="@drawable/arrow_selector" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/personal_list_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="#E6E6E6" />
+
+        </RelativeLayout>
+
+        <!--车系-->
+        <RelativeLayout
+            android:id="@+id/car_list_cartype_rl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/personal_list_height"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/personal_list_cartype_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/personal_list_margin"
+                android:background="@drawable/personal_list_ic_insurance"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/personal_list_margin"
+                android:layout_toRightOf="@id/personal_list_cartype_iv"
+                android:textColor="@color/black"
+                android:text="车系" />
+
+
+            <TextView
+                android:id="@+id/personal_list_cartype_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/personal_detail_hint"
+                android:layout_marginRight="@dimen/personal_list_margin"
+                android:layout_toLeftOf="@+id/personal_list_cartype_arrow_ib"
+                android:text="宝马1系" />
+
+
+            <ImageButton
+                android:id="@+id/personal_list_cartype_arrow_ib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/personal_list_margin"
+                android:background="@drawable/arrow_selector" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/personal_list_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="#E6E6E6" />
+        </RelativeLayout>
+        <!--车牌号码-->
+        <RelativeLayout
+            android:id="@+id/car_list_platenumber_rl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/personal_list_height"
+            android:background="@color/white">
+
+
+            <ImageView
+                android:id="@+id/personal_list_platenumber_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/personal_list_margin"
+                android:background="@drawable/personal_list_ic_insurance"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/personal_list_margin"
+                android:layout_toRightOf="@id/personal_list_platenumber_iv"
+                android:textColor="@color/black"
+                android:text="车牌号码" />
+
+
+            <RelativeLayout
+                android:id="@+id/personal_list_platenumber_open_rl"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/personal_list_platenumber_et">
+
+                <TextView
+                    android:id="@+id/personal_list_platenumber_open_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/personal_list_platenumber_open_ib"
+                    android:textColor="@color/black"
+                    android:text="粤" />
+
+
+                <ImageButton
+                    android:id="@+id/personal_list_platenumber_open_ib"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/plate_open_selector"
+                    android:layout_alignParentRight="true"
+                    />
+
+            </RelativeLayout>
+
+
+            <EditText
+                android:id="@+id/personal_list_platenumber_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/personal_list_margin"
+                android:background="@null"
+                android:hint="请输入车牌号"
+                android:text=""
+                android:textSize="@dimen/personal_detail_hint" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/personal_list_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="#E6E6E6" />
+        </RelativeLayout>
+        <!--号码类型-->
+        <RelativeLayout
+            android:id="@+id/car_list_numbertype_rl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/personal_list_height"
+            android:background="@color/white">
+
+
+            <ImageView
+                android:id="@+id/personal_list_numbertype_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/personal_list_margin"
+                android:background="@drawable/personal_list_ic_insurance"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/personal_list_margin"
+                android:layout_toRightOf="@id/personal_list_numbertype_iv"
+                android:textColor="@color/black"
+                android:text="号码类型" />
+
+            <TextView
+                android:id="@+id/personal_list_numbertype_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/personal_list_margin"
+                android:text="小型汽车"
+                android:layout_toLeftOf="@+id/personal_list_numbertype_answer_ib"
+                android:textSize="@dimen/personal_detail_hint" />
+
+            <ImageButton
+                android:id="@+id/personal_list_numbertype_answer_ib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/personal_list_margin"
+                android:background="@drawable/personal_answer_selector"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/personal_list_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="#E6E6E6" />
+        </RelativeLayout>
+        <!--城市-->
+        <RelativeLayout
+            android:id="@+id/car_list_address_rl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/personal_list_height"
+            android:layout_marginTop="10dp"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/personal_list_address_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/personal_list_margin"
+                android:background="@drawable/personal_list_ic_insurance"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/personal_list_margin"
+                android:layout_toRightOf="@id/personal_list_address_iv"
+                android:textColor="@color/black"
+                android:text="城市" />
+
+            <TextView
+                android:id="@+id/personal_list_address_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/personal_list_margin"
+                android:text="深圳"
+                android:layout_toLeftOf="@+id/personal_list_address_arrow_ib"
+                android:textSize="@dimen/personal_detail_hint" />
+
+            <ImageButton
+                android:id="@+id/personal_list_address_arrow_ib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/personal_list_margin"
+                android:background="@drawable/arrow_selector"
+                />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/personal_list_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="#E6E6E6" />
+        </RelativeLayout>
+        <!--车架号-->
+        <RelativeLayout
+            android:id="@+id/car_list_framenumber_rl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/personal_list_height"
+            android:layout_marginTop="10dp"
+            android:background="@color/white">
+
+
+            <ImageView
+                android:id="@+id/personal_list_framenumber_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/personal_list_margin"
+                android:background="@drawable/personal_list_ic_insurance"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/personal_list_margin"
+                android:layout_toRightOf="@id/personal_list_framenumber_iv"
+                android:textColor="@color/black"
+                android:text="车架号" />
+
+            <EditText
+                android:id="@+id/personal_list_framenumber_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:gravity="right"
+                android:layout_marginRight="@dimen/personal_list_margin"
+                android:hint="请输入车架号"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/personal_detail_hint" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/personal_list_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="#E6E6E6" />
+        </RelativeLayout>
+        <!--发动机号-->
+        <RelativeLayout
+            android:id="@+id/car_list_enginenumber_rl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/personal_list_height"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/personal_list_enginenumber_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/personal_list_margin"
+                android:background="@drawable/personal_list_ic_insurance"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/personal_list_margin"
+                android:layout_toRightOf="@id/personal_list_enginenumber_iv"
+                android:textColor="@color/black"
+                android:text="发动机号" />
+
+            <EditText
+                android:id="@+id/personal_list_enginenumber_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="right"
+                android:background="@null"
+                android:layout_marginRight="@dimen/personal_list_margin"
+                android:layout_toLeftOf="@+id/personal_list_enginenumber_answer_ib"
+                android:hint="请输入完整的发动机号"
+                android:textSize="@dimen/personal_detail_hint" />
+
+            <ImageButton
+                android:id="@+id/personal_list_enginenumber_answer_ib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/personal_list_margin"
+                android:background="@drawable/personal_answer_selector"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/personal_list_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="#E6E6E6" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/personal_list_height"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <Button
+                android:id="@+id/personal_detail_save_btn"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/personal_btn_selector"
+                android:text="保存信息"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/personal_top_bg">
+
+        <RelativeLayout
+            android:id="@+id/nav_ll"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/activity_vertical_margin">
+
+            <ImageView
+                android:id="@+id/left_img"
+                android:layout_width="@dimen/activity_bar_back"
+                android:layout_height="@dimen/activity_bar_back"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:gravity="center"
+                android:src="@drawable/icon_actionbar_back_normal" />
+
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxWidth="220.0dip"
+                android:singleLine="true"
+                android:text="个人中心"
+                android:textColor="#f7f7f7"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/right_menu"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:paddingBottom="5dip"
+                android:paddingRight="10dip"
+                android:paddingTop="5dip"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/personeal_nav_bottom_rl"
+            android:layout_below="@id/nav_ll">
+
+            <ImageView
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/personal_top_head_bg" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/personeal_personimg_iv"
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/personal_top_head" />
+
+            <TextView
+                android:id="@+id/personal_platenumber_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/personeal_personimg_iv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="粤B6889"
+                android:textColor="@color/gray" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/personeal_nav_bottom_rl"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_alignParentBottom="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+                        <TextView
+                            android:id="@+id/personeal_km_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:text="586"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/personal_km_info" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/personeal_km_tv"
+                            android:layout_centerHorizontal="true"
+                            android:text="公里数"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/personal_km_tip_info" />
+
+
+                    </RelativeLayout>
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/personal_top_line" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+                        <TextView
+                            android:id="@+id/personeal_day_km_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:text="12"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/personal_km_info" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/personeal_day_km_tv"
+                            android:layout_centerHorizontal="true"
+                            android:text="当日公里"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/personal_km_tip_info" />
+
+
+                    </RelativeLayout>
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/personal_top_line" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+                        <TextView
+                            android:id="@+id/personeal_avg_km_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:text="80"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/personal_km_info" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/personeal_avg_km_tv"
+                            android:layout_centerHorizontal="true"
+                            android:text="平均时速"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/personal_km_tip_info" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/gray"
+        android:orientation="vertical">
+
+        <!--车辆保险-->
+        <RelativeLayout
+            android:id="@+id/personal_list_insurance_rl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/personal_list_height"
+            android:layout_marginTop="10dp"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/personal_list_insurance_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/personal_list_margin"
+                android:background="@drawable/personal_list_ic_insurance"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="车辆保险"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/personal_list_insurance_iv"
+                android:layout_marginLeft="@dimen/personal_list_margin"
+                />
+
+
+            <TextView
+                android:id="@+id/personal_list_insurance_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/personal_list_insurance_arrow_ib"
+                android:layout_marginRight="@dimen/personal_list_margin"
+                android:text="2015-02-23"
+                />
+
+
+            <ImageButton
+                android:id="@+id/personal_list_insurance_arrow_ib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arrow_selector"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/personal_list_margin"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/personal_list_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="#E6E6E6" />
+
+        </RelativeLayout>
+        <!--违章查询-->
+        <RelativeLayout
+            android:id="@+id/personal_list_search_rl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/personal_list_height"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/personal_list_search_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/personal_list_margin"
+                android:background="@drawable/personal_list_ic_search"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="违章查询"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/personal_list_search_iv"
+                android:layout_marginLeft="@dimen/personal_list_margin"
+                />
+
+
+            <TextView
+                android:id="@+id/personal_list_search_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/personal_list_search_arrow_ib"
+                android:layout_marginRight="@dimen/personal_list_margin"
+                android:visibility="gone"
+                />
+
+
+            <ImageButton
+                android:id="@+id/personal_list_search_arrow_ib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arrow_selector"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/personal_list_margin"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/personal_list_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="#E6E6E6" />
+        </RelativeLayout>
+        <!--车辆保养-->
+        <RelativeLayout
+            android:id="@+id/personal_list_maintenance_rl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/personal_list_height"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/personal_list_maintenance_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/personal_list_margin"
+                android:background="@drawable/personal_list_ic_maintenance"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="车辆保养"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/personal_list_maintenance_iv"
+                android:layout_marginLeft="@dimen/personal_list_margin"
+                />
+
+
+            <TextView
+                android:id="@+id/personal_list_maintenance_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/personal_list_maintenance_arrow_ib"
+                android:layout_marginRight="@dimen/personal_list_margin"
+                android:visibility="gone"
+                />
+
+
+            <ImageButton
+                android:id="@+id/personal_list_maintenance_arrow_ib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arrow_selector"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/personal_list_margin"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/personal_list_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="#E6E6E6" />
+        </RelativeLayout>
+        <!--车载升级-->
+        <RelativeLayout
+            android:id="@+id/personal_list_update_rl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/personal_list_height"
+            android:background="@color/white"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/personal_list_update_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/personal_list_margin"
+                android:background="@drawable/personal_list_ic_about"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="车载升级"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/personal_list_update_iv"
+                android:layout_marginLeft="@dimen/personal_list_margin"
+                />
+
+
+            <TextView
+                android:id="@+id/personal_list_update_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/personal_list_update_arrow_ib"
+                android:layout_marginRight="@dimen/personal_list_margin"
+                android:visibility="visible"
+                />
+
+
+            <ImageButton
+                android:id="@+id/personal_list_update_arrow_ib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arrow_selector"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/personal_list_margin"
+                />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/personal_list_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="#E6E6E6" />
+        </RelativeLayout>
+        <!--关于我们-->
+        <RelativeLayout
+            android:id="@+id/personal_list_about_rl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/personal_list_height"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/personal_list_about_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/personal_list_margin"
+                android:background="@drawable/personal_list_ic_update"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="关于我们"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/personal_list_about_iv"
+                android:layout_marginLeft="@dimen/personal_list_margin"
+                />
+
+
+            <TextView
+                android:id="@+id/personal_list_about_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/personal_list_about_arrow_ib"
+                android:layout_marginRight="@dimen/personal_list_margin"
+                android:visibility="visible"
+                />
+
+
+            <ImageButton
+                android:id="@+id/personal_list_about_arrow_ib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arrow_selector"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/personal_list_margin"
+                />
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/personal_list_line_height"
+                android:layout_alignParentBottom="true"
+                android:background="#E6E6E6" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

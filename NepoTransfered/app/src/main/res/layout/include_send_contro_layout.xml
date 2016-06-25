@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/media_send_item_control"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_alignParentBottom="true"
+    android:background="#F5F5F5"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/media_send_item_cencel_btn"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@drawable/toolbar_cancel_selector"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2.5"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:id="@+id/media_send_item_control_rl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/media_send_item_control_ibtn"
+                android:layout_width="130dp"
+                android:layout_height="35dp"
+                android:background="@drawable/toolbar_send_selector"
+                android:layout_centerInParent="true"
+                />
+            <TextView
+                android:id="@+id/media_send_item_control_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发送"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_centerInParent="true"
+                />
+            <TextView
+                android:id="@+id/media_send_item_control_mDragView"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:background="@drawable/red_bg"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/media_send_item_control_tv"
+                android:singleLine="true"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="25dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textColor="@android:color/white"
+                android:visibility="gone"
+                />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <CheckBox
+            android:id="@+id/media_send_item_control_checked"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/toolbar_check"
+            android:button="@null"
+            android:checked="false" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+package com.nepo.nepotransfered;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.nepo.nepotransfered.adapter.TransferItemAdapter;
+import com.nepo.nepotransfered.app.Constant;
+import com.nepo.nepotransfered.db.TransferDB;
+import com.nepo.nepotransfered.model.TransferModel;
+import com.nepo.nepotransfered.view.xlistview.XListView;
+
+
+import java.util.List;
+
+/**
+ * Created by lsiuhen on 2016/6/3.
+ */
+public class TransferItemActivity extends BaseActivity implements TransferItemAdapter.OnTransferDelClickLisenter {
+
+    /**
+     * 视图
+     */
+    private RelativeLayout nav_ll;
+    private TextView title;
+    private XListView transfer_media_music_listview;
+
+    /**
+     * 数据
+     * @param savedInstanceState
+     */
+    private List<TransferModel> transferModelList;
+    private TransferItemAdapter transferItemAdapter;
+    public static final String EXTRA_TYPE="EXTRA_TYPE";
+    private String type;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_transfer_item);
+        initView();
+        initLisenter();
+        initData();
+    }
+
+    @Override
+    public void initView() {
+        isImmersion(true);
+        nav_ll = (RelativeLayout) findViewById(R.id.nav_ll);
+        title = (TextView) findViewById(R.id.title);
+        transfer_media_music_listview = (XListView) findViewById(R.id.transfer_media_music_listview);
+    }
+
+    @Override
+    public void initData() {
+        Intent intent = getIntent();
+        type= intent.getStringExtra(EXTRA_TYPE);
+        title.setText(type);
+        transferModelList= TransferDB.getTransferDB(this).queryTransferByType(type);
+        transferItemAdapter=new TransferItemAdapter(this,transferModelList);
+        transferItemAdapter.setOnTransferDelClickLisenter(this);
+        transfer_media_music_listview.setAdapter(transferItemAdapter);
+    }
+
+    @Override
+    public void initLisenter() {
+        transfer_media_music_listview.setPullRefreshEnable(false);
+        transfer_media_music_listview
+                .setPullLoadEnable(false);
+        nav_ll.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+    }
+
+    @Override
+    public void onDel(TransferModel model) {
+        //从传输队列中删除
+        int line = TransferDB.getTransferDB(this).deletTransferModel(model);
+        if(line!=-1){
+            Toast.makeText(TransferItemActivity.this, "删除成功", Toast.LENGTH_SHORT).show();
+            transferModelList= TransferDB.getTransferDB(this).queryTransferByType(type);
+            transferItemAdapter.refresh(transferModelList);
+        }
+
+    }
+}

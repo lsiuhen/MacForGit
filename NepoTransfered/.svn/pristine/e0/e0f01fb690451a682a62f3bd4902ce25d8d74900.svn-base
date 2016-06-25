@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/item_download_img_rl"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:id="@+id/item_download_img_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/item_download_content_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/item_download_img_rl"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/item_download_control_rl"
+        >
+
+        <TextView
+            android:id="@+id/item_download_content_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_marginBottom="3dp"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            />
+
+        <ProgressBar
+            android:id="@+id/item_download_content_pb"
+            style="@style/StyleProgressBarMini"
+            android:layout_width="match_parent"
+            android:layout_below="@id/item_download_content_name_tv"
+            android:layout_height="3dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/shape_progressbar_bg"
+            android:gravity="center_horizontal"
+            android:max="100"
+            android:layout_marginBottom="3dp"
+            android:progress="0" />
+
+        <TextView
+            android:id="@+id/item_download_content_status_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="等待下载"
+            android:textSize="10sp"
+            android:textColor="#B2B4B3"
+            android:layout_below="@id/item_download_content_pb"
+            android:layout_alignParentLeft="true"
+            />
+
+
+        <TextView
+            android:id="@+id/item_download_content_current_size_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_below="@id/item_download_content_pb"
+            android:layout_toLeftOf="@+id/item_download_content_size_tv"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/item_download_content_size_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:textColor="#B2B4B3"
+            android:layout_below="@id/item_download_content_pb"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/item_download_control_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/item_download_control_pause_iv"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:src="@drawable/trans_item_pause"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="5dp"
+            />
+        <ImageView
+            android:id="@+id/item_download_control_del_iv"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:src="@drawable/list_icos_dustbin"
+            android:layout_toRightOf="@id/item_download_control_pause_iv"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            />
+
+        </RelativeLayout>
+
+
+
+
+</RelativeLayout>

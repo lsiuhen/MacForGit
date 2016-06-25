@@ -1,0 +1,34 @@
+apply plugin: 'com.android.application'
+
+android {
+    useLibrary 'org.apache.http.legacy'
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.nepo.nepotransfered"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    //图片加载框架 picasso
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    //圆形图片 circleImage
+    compile 'de.hdodenhof:circleimageview:2.0.0'
+    //图片加载框架 universalimageloader
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.4'
+    compile project(':xUtilslibrary')
+}

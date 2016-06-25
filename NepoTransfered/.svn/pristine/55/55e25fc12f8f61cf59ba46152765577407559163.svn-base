@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/nav_ll"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@color/blue">
+
+        <ImageView
+            android:id="@+id/left_img"
+            android:layout_width="@dimen/activity_bar_back"
+            android:layout_height="@dimen/activity_bar_back"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:gravity="center"
+            android:src="@drawable/icon_actionbar_back_normal" />
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxWidth="220.0dip"
+            android:singleLine="true"
+            android:text="图片"
+            android:textColor="#f7f7f7"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/right_menu"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:paddingBottom="5dip"
+            android:paddingRight="10dip"
+            android:paddingTop="5dip"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <TextView
+            android:id="@+id/item_media_image_dir_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            />
+
+
+        <GridView
+            android:id="@+id/media_pic_item_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/include_img_send_control"
+            android:layout_margin="1dp"
+            android:horizontalSpacing="2dp"
+            android:numColumns="4"
+            android:scrollbars="none"
+            android:verticalSpacing="2dp"
+            android:gravity="center"
+            >
+
+        </GridView>
+
+        <include
+            android:id="@+id/include_img_send_control"
+            layout="@layout/include_send_contro_layout"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_white"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/nav_ll"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@color/blue">
+
+        <ImageView
+            android:id="@+id/left_img"
+            android:layout_width="@dimen/activity_bar_back"
+            android:layout_height="@dimen/activity_bar_back"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:gravity="center"
+            android:src="@drawable/icon_actionbar_back_normal" />
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxWidth="220.0dip"
+            android:singleLine="true"
+            android:text="我的应用"
+            android:textColor="#f7f7f7"
+            android:textSize="16sp" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dip"
+            android:visibility="gone"
+            >
+
+            <ImageView
+                android:id="@+id/right_menu"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/icon_myapp_down"
+                android:gravity="center"
+                android:paddingBottom="5dip"
+                android:paddingTop="5dip" />
+
+            <TextView
+
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_alignTop="@id/right_menu"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/icon_corner"
+                android:gravity="center"
+                android:text="111"
+                android:visibility="gone" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.nepo.nepotransfered.view.xlistview.XListView
+            android:id="@+id/myapp_list_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:layout_centerInParent="true" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
