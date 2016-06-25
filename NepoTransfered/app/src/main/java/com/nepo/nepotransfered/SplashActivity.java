@@ -16,6 +16,7 @@ import java.io.File;
  */
 public class SplashActivity extends BaseActivity {
 
+        //测试git commit
 
     private ImageView img;
 
